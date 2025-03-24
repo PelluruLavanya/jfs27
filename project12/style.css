@@ -1,0 +1,10 @@
+.box{
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 0px 10px 0px;
+    margin: 10px;
+
+}
+#hello{
+    background-color: green;
+}
