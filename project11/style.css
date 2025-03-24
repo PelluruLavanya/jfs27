@@ -1,0 +1,30 @@
+.que{
+    background-color:palevioletred;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.opt{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.opt>span:nth-child(1){
+    border: 1px solid black;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: plum;
+    color: white;
+    margin-right: 10px;
+}
+.opt:hover{
+    background-color: palevioletred;
+    color: aliceblue;
+    cursor:pointer;
+}
